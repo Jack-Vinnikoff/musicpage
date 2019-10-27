@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.wrapper-home-page {
+  height: 1024px;
+  background: url("../../img/bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.wrapper-home-page header {
+  color: #ffffff;
+}
+.wrapper-home-page header .navbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+.wrapper-home-page header .navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+}
+.wrapper-home-page header .navbar .navbar-menu {
+  font-size: 14px;
+  padding: 10px;
+}
+.wrapper-home-page header .navbar .navbar-menu a {
+  cursor: pointer;
+  padding-right: 10px;
+}
+.wrapper-home-page header .navbar .navbar-menu a:hover {
+  color: #c7b299;
+}
+.wrapper-home-page header .navbar .panel .icon-panel {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
