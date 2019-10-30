@@ -1,5 +1,21 @@
-div{
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
 }
+
+a {
+  color: #000000;
+}
+
+button {
+  background-color: transparent;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */
